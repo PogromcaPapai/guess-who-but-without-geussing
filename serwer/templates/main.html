@@ -1,0 +1,64 @@
+<!doctype html>
+
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+
+    <title>Zbieranie danych</title>
+    <meta name="description" content="Zbieranie cech występujących w grze Zgadnij kto to">
+    
+    <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" type="text/css">
+
+    <link href="{{ url_for('static', filename='jquery.nice-number.css') }}" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" 
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" 
+        crossorigin="anonymous"></script>
+    <script src="{{ url_for('static', filename='jquery.nice-number.js') }}"></script>
+    <script>
+        $(function(){
+            $('input[type="number"]').niceNumber(
+                {
+                }
+            );
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Zbieranie cech w grze "Zgadnij kto to"</h1>
+        <p>
+            Nasrałem i zjadłem
+        </p>
+    </header>
+    <article>
+        <form action="/" method="post">
+            <label for="cecha"><h3>Nazwa cechy</h3></label>
+            <input type="text" name="cecha" id="cecha" maxlength="30" required>
+
+            <figure>
+                <figcaption><h3>Plansza do anotacji</h3></figcaption>
+                <img src="{{ url_for('static', filename='plansza.jpg') }}" alt="Wykorzystywana w badaniu plansza">
+            </figure>
+
+            <table>
+                {% for kolumna in osoby %}
+                <tr>
+                    {% for osoba in kolumna %}
+                    <th>
+                        <label for="{{osoba}}">{{osoba}}</label> <br>
+                        <input required type="number" name="{{osoba}}" id="{{osoba}}" max="9" min="0" value="0">
+                    </th>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+            </table>
+
+            <label for="uwagi">Miejsce na Twoje uwagi:</label>
+            <textarea name="uwagi" id="uwagi" maxlength="600"></textarea>
+
+            <input type="submit" value="Zaproponuj cechę"> 
+        </form>
+    </article>
+</body>
+</html>
