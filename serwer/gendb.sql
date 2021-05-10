@@ -1,4 +1,6 @@
 -- SQLite
+DROP TABLE cechy;
+
 CREATE TABLE cechy (
     nazwa       varchar(30) not NULL,
     uwagi       varchar(600) not NULL,
@@ -26,5 +28,5 @@ CREATE TABLE cechy (
     Sam         tinyint not NULL,
     Susan       tinyint not NULL,
     Tom         tinyint not NULL,
-    id_cecha    SERIAL PRIMARY KEY
+    id_cecha    INTEGER PRIMARY KEY
 );
