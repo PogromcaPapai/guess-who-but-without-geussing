@@ -7,7 +7,7 @@
     <title>Zbieranie danych</title>
     <meta name="description" content="Zbieranie cech występujących w grze Zgadnij kto to">
     
-    <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" type="text/css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" type="text/css">
 
     <link href="{{ url_for('static', filename='jquery.nice-number.css') }}" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" 
@@ -28,25 +28,26 @@
     <header>
         <h1>Zbieranie cech w grze "Zgadnij kto to"</h1>
         <p>
-            Nasrałem i zjadłem
+            Hej! Nazywam się Jakub Dakowski, jestem studentem kognitywistyki. W ramach swojego projektu na przedmiot "Reasoning" zbieram informacje o cechach możliwych do dostrzeżenia u postaci w grze "Zgadnij kto to". Jeśli masz jakiś pomysł na wyróżnialną cechę, możesz go tutaj dodać!
+        </p>
+        <p>
+            Aby dodać cechę podaj jej nazwę, a następnie przypisz osobom w tabeli wartości liczbowe zgodnie z wartościami cechy.
+            Przykładowo klasyfikując rośliny wszystkim kwiatom nadać możesz wartość 1, wszystkim drzewom wartość 2, a przy krzakach możesz pozostawić 0. <br>
+            Dzięki za pomoc! 
         </p>
     </header>
     <article>
         <form action="/" method="post">
-            <label for="cecha"><h3>Nazwa cechy</h3></label>
-            <input type="text" name="cecha" id="cecha" maxlength="30" required>
-
-            <figure>
-                <figcaption><h3>Plansza do anotacji</h3></figcaption>
-                <img src="{{ url_for('static', filename='plansza.jpg') }}" alt="Wykorzystywana w badaniu plansza">
-            </figure>
-
+            <label for="cechaID"><h3>Nazwa cechy</h3></label>
+            <input type="text" name="cecha" id="cechaID" maxlength="30" required autocomplete="off"/>
+            
+            <h3>Tabela cech</h3>
             <table>
                 {% for kolumna in osoby %}
                 <tr>
                     {% for osoba in kolumna %}
                     <th>
-                        <label for="{{osoba}}">{{osoba}}</label> <br>
+                        <label for="{{osoba}}"><img src="foty/{{ osoba|lower }}.png" alt="{{osoba}}"></label>
                         <input required type="number" name="{{osoba}}" id="{{osoba}}" max="9" min="0" value="0">
                     </th>
                     {% endfor %}
@@ -54,11 +55,12 @@
                 {% endfor %}
             </table>
 
-            <label for="uwagi">Miejsce na Twoje uwagi:</label>
-            <textarea name="uwagi" id="uwagi" maxlength="600"></textarea>
+            <label for="uwagi"><h3>Miejsce na Twoje uwagi</h3></label>
+            <textarea name="uwagi" id="uwagi" maxlength="600" ></textarea>
 
             <input type="submit" value="Zaproponuj cechę"> 
         </form>
     </article>
 </body>
+<script src="{{ url_for('static', filename='check_user.js') }}"></script>
 </html>
