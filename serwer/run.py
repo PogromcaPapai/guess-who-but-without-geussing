@@ -33,7 +33,7 @@ def form():
    if request.form['cecha'] in getcechy():
       return "Cecha już opisana", 400
 
-   args = [request.form['cecha'], request.form['uwagi'].replace('\n','/')]
+   args = [request.form['cecha'].lower(), request.form['uwagi'].replace('\n','/')]
    for os in sum(OSOBY, []):
       if request.form.get(os, 'NIE').isnumeric():
          args.append(int(request.form[os]))

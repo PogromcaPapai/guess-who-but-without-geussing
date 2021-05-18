@@ -1,0 +1,109 @@
+,nazwa,wartosc,Alex,Alfred,Anita,Anne,Bernard,Bill,Charles,Claire,David,Eric,Frans,George,Herman,Joe,Maria,Max,Paul,Peter,Philip,Richard,Robert,Sam,Susan,Tom,Nyes,eff
+0,kolumna,0,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,3,0.14285714285714285
+1,kolumna,1,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,3,0.14285714285714285
+2,kolumna,2,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False,3,0.14285714285714285
+3,kolumna,3,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,3,0.14285714285714285
+4,kolumna,4,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,3,0.14285714285714285
+5,kolumna,5,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,3,0.14285714285714285
+6,kolumna,6,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,3,0.14285714285714285
+7,kolumna,7,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,3,0.14285714285714285
+8,nakrycie głowy,0,True,True,True,True,False,True,True,False,True,False,True,False,True,True,False,True,True,True,True,True,True,True,True,True,19,0.2631578947368421
+9,nakrycie głowy,1,False,False,False,False,True,False,False,True,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,5,0.2631578947368421
+10,nosi okulary,0,True,True,True,True,True,True,True,False,True,True,True,True,True,False,True,True,False,True,True,True,True,False,True,False,19,0.2631578947368421
+11,nosi okulary,1,False,False,False,False,False,False,False,True,False,False,False,False,False,True,False,False,True,False,False,False,False,True,False,True,5,0.2631578947368421
+12,kolor włosów,1,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,True,False,False,False,False,True,5,0.2631578947368421
+13,kolor włosów,3,False,True,False,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,4,0.2
+14,kolor włosów,4,False,False,True,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,4,0.2
+15,kolor włosów,2,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,True,False,False,False,3,0.14285714285714285
+16,kolor włosów,0,False,False,False,False,False,False,False,False,False,True,False,True,True,False,False,False,False,False,False,True,False,True,False,False,5,0.2631578947368421
+17,kolor włosów,5,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,False,False,False,False,True,False,3,0.14285714285714285
+18,zarost,1,True,True,False,False,False,True,True,False,True,False,False,False,False,False,False,True,False,False,True,True,False,False,False,False,8,0.5
+19,zarost,0,False,False,True,True,True,False,False,True,False,True,True,True,True,True,True,False,True,True,False,False,True,True,True,True,16,0.5
+20,płeć,1,True,True,False,False,True,True,True,False,True,True,True,True,True,True,False,True,True,True,True,True,True,True,False,True,19,0.2631578947368421
+21,płeć,2,False,False,True,True,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,5,0.2631578947368421
+22,kształt głowy ,0,True,False,False,False,False,False,False,False,False,True,True,False,False,True,False,False,False,True,False,False,False,False,False,False,5,0.2631578947368421
+23,kształt głowy ,2,False,True,False,False,True,False,False,False,True,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,6,0.3333333333333333
+24,kształt głowy ,1,False,False,True,True,False,False,True,True,False,False,False,False,True,False,False,True,False,False,True,False,False,True,False,False,8,0.5
+25,kształt głowy ,3,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,2,0.09090909090909091
+26,kształt głowy ,4,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,True,True,3,0.14285714285714285
+27,duże usta,2,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,True,False,True,False,False,False,False,True,False,6,0.3333333333333333
+28,duże usta,0,False,True,True,True,True,True,False,True,False,False,True,False,True,True,True,False,True,False,False,True,True,True,False,True,15,0.6
+29,duże usta,1,False,False,False,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False,3,0.14285714285714285
+30,dziura w brodzie,1,True,False,False,False,True,False,True,False,False,True,False,True,False,True,False,False,True,False,False,False,True,False,False,False,8,0.5
+31,dziura w brodzie,0,False,True,True,True,False,False,False,True,False,False,True,False,True,False,True,True,False,True,False,False,False,True,True,True,12,1.0
+32,dziura w brodzie,2,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,True,True,False,False,False,False,4,0.2
+33,rumieńce,0,True,True,False,True,True,False,True,True,True,True,True,True,True,True,True,True,True,True,False,True,False,True,False,True,19,0.2631578947368421
+34,rumieńce,1,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,True,False,True,False,5,0.2631578947368421
+35,symetryczność brwi,0,True,True,False,True,True,False,False,False,True,True,False,False,False,False,False,True,False,True,True,False,False,False,True,True,11,0.8461538461538461
+36,symetryczność brwi,1,False,False,True,False,False,True,True,True,False,False,True,True,True,True,True,False,True,False,False,True,True,True,False,False,13,0.8461538461538461
+39,wiersz,0,True,True,True,True,True,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,8,0.5
+40,wiersz,1,False,False,False,False,False,False,False,False,True,True,True,True,True,True,True,True,False,False,False,False,False,False,False,False,8,0.5
+41,wiersz,2,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,True,True,True,True,True,True,8,0.5
+42,asymetryczność twarzy,2,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,True,False,False,False,False,False,False,3,0.14285714285714285
+43,asymetryczność twarzy,1,False,True,False,True,False,False,False,False,False,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,5,0.2631578947368421
+44,asymetryczność twarzy,0,False,False,True,False,True,True,True,True,True,True,False,True,True,False,False,False,True,False,True,True,True,True,True,True,16,0.5
+45,kolor oczu,0,True,False,False,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,True,True,False,True,True,False,19,0.2631578947368421
+46,kolor oczu,1,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,True,False,False,True,5,0.2631578947368421
+47,fryzura,0,True,False,False,False,True,False,True,False,True,True,False,True,False,False,False,False,True,True,False,False,True,False,False,False,9,0.6
+48,fryzura,1,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,3,0.14285714285714285
+49,fryzura,4,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1,0.043478260869565216
+50,fryzura,2,False,False,False,True,False,False,False,True,False,False,True,False,False,True,False,True,False,False,True,False,False,False,False,False,6,0.3333333333333333
+51,fryzura,3,False,False,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False,False,True,False,True,False,True,5,0.2631578947368421
+52,wyraz twarzy,0,True,False,False,False,False,False,True,False,True,True,False,False,False,False,False,True,True,True,True,False,False,False,True,True,10,0.7142857142857143
+53,wyraz twarzy,2,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2,0.09090909090909091
+54,wyraz twarzy,1,False,False,True,True,False,True,False,True,False,False,True,False,False,True,True,False,False,False,False,True,False,True,False,False,9,0.6
+55,wyraz twarzy,3,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,2,0.09090909090909091
+56,wyraz twarzy,4,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,1,0.043478260869565216
+57,nos,0,True,True,True,False,False,True,True,True,True,True,True,True,False,False,True,False,True,False,True,False,False,True,True,True,16,0.5
+58,nos,1,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,True,False,False,False,False,3,0.14285714285714285
+59,nos,2,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,True,False,True,False,False,True,False,False,False,5,0.2631578947368421
+60,kolor skóry,0,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,True,True,True,False,False,True,False,True,8,0.5
+61,kolor skóry,1,False,True,True,False,True,True,True,True,True,True,True,True,True,True,True,False,False,False,False,True,True,False,True,False,16,0.5
+62,kolczyki,0,True,True,True,False,True,True,True,True,True,True,True,True,True,True,False,True,True,True,True,True,True,True,True,True,22,0.09090909090909091
+63,kolczyki,1,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,2,0.09090909090909091
+64,kwiaty,0,True,True,True,True,True,True,True,False,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,23,0.043478260869565216
+65,kwiaty,1,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1,0.043478260869565216
+66,dlugosc,4,True,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,5,0.2631578947368421
+67,dlugosc,6,False,True,False,False,False,False,False,True,False,False,False,True,True,False,False,False,False,False,True,False,True,False,False,False,6,0.3333333333333333
+68,dlugosc,5,False,False,True,False,False,False,False,False,True,False,True,False,False,False,True,False,False,True,False,False,False,False,True,False,6,0.3333333333333333
+69,dlugosc,7,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,3,0.14285714285714285
+70,dlugosc,3,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,True,False,False,False,False,False,True,False,True,4,0.2
+71,imie,0,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1,0.043478260869565216
+72,imie,1,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1,0.043478260869565216
+74,imie,3,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1,0.043478260869565216
+75,imie,4,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1,0.043478260869565216
+76,imie,5,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1,0.043478260869565216
+77,imie,6,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1,0.043478260869565216
+79,imie,8,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1,0.043478260869565216
+80,imie,9,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,1,0.043478260869565216
+81,imie,10,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,1,0.043478260869565216
+82,imie,11,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,1,0.043478260869565216
+84,imie,13,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,1,0.043478260869565216
+85,imie,14,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,1,0.043478260869565216
+86,imie,15,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,1,0.043478260869565216
+87,imie,16,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,1,0.043478260869565216
+88,imie,17,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,1,0.043478260869565216
+89,imie,18,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,1,0.043478260869565216
+90,imie,19,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,1,0.043478260869565216
+91,imie,20,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,1,0.043478260869565216
+92,imie,21,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,1,0.043478260869565216
+93,imie,22,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,1,0.043478260869565216
+94,imie,23,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,1,0.043478260869565216
+95,start1,1,True,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,4,0.2
+96,start1,6,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2,0.09090909090909091
+97,start1,12,False,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2,0.09090909090909091
+104,start1,8,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,2,0.09090909090909091
+105,start1,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,True,False,False,False,False,False,3,0.14285714285714285
+106,start1,2,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,False,False,False,2,0.09090909090909091
+107,start1,13,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,False,2,0.09090909090909091
+109,start2,15,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2,0.09090909090909091
+110,start2,2,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,2,0.09090909090909091
+130,end1,8,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,2,0.09090909090909091
+131,end1,11,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,4,0.2
+132,end1,7,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,2,0.09090909090909091
+133,end1,2,False,False,False,True,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,4,0.2
+134,end1,9,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,2,0.09090909090909091
+135,end1,0,False,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,2,0.09090909090909091
+137,end1,4,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False,2,0.09090909090909091
+141,end1,6,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,True,2,0.09090909090909091
+146,end2,17,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,2,0.09090909090909091

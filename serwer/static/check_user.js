@@ -11,7 +11,7 @@ function checker(e) {
     e.target.setCustomValidity("");
     for (let index = 0; index < posiadane.length; index++) {
         const element = posiadane[index];
-        if (element.localeCompare(v) == 0) {
+        if (element.localeCompare(v.toLowerCase()) == 0) {
             e.target.setCustomValidity('Taka cecha już została zaproponowana')
             e.target.reportValidity();
             break
