@@ -51,6 +51,7 @@ for i in df.index:
       pytania = pytania.append({'nazwa':i, 'wartosc':j} | d, ignore_index=True)
 
 pytania.drop_duplicates(subset=osoby, inplace=True)
+pytania['nazwa'] = pytania['nazwa'].apply(lambda x: x.strip().replace(" ", "_"))
 
 # %%
 pytania['Nyes'] = pytania[osoby].sum(axis=1)
