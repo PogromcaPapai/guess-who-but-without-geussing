@@ -1,4 +1,4 @@
-,nazwa,wartosc,Alex,Alfred,Anita,Anne,Bernard,Bill,Charles,Claire,David,Eric,Frans,George,Herman,Joe,Maria,Max,Paul,Peter,Philip,Richard,Robert,Sam,Susan,Tom
+num,nazwa,wartosc,Alex,Alfred,Anita,Anne,Bernard,Bill,Charles,Claire,David,Eric,Frans,George,Herman,Joe,Maria,Max,Paul,Peter,Philip,Richard,Robert,Sam,Susan,Tom
 0,kolumna,0,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
 1,kolumna,1,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False
 2,kolumna,2,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False
